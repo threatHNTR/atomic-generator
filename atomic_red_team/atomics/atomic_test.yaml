@@ -1,0 +1,12 @@
+atomic_tests:
+  - name: Atomic Test
+    description: Atomic Description
+    supported_platforms:
+      - windows
+      - macos
+      - linux
+    executor:
+      name: powershell
+      command: powershell.exe invoke-atomictestgenerator
+      elevation_required: true
+      cleanup_command: powershell.exe cleanup-test
