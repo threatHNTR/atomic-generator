@@ -3,7 +3,7 @@
 A Python-based tool for generating YAML files for atomic tests for Atomic Red Team.
 
 ## Features
-- This is a tool inspired by [atomic test generator](atomicgen.io). I wanted to create a python based tool to do essentially the same thing.
+- This is a tool inspired by [atomic test generator](https://atomicgen.io/). I wanted to create a python based tool to do essentially the same thing.
 - Generate atomic test YAML files with required and optional fields.
 - Supports dependencies and input arguments.
 - Validates user input to ensure correct data format.
